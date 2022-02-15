@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2;
+
+}
+label{
+  margin-bottom: 2px;
+}
+input{
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.food{
+  width: 200px;
+  height:170px;
+  border: 10px solid green;
+  padding: 20px;
+  margin: 5px;
+  color:cornflowerblue
+}
+
