@@ -9,7 +9,7 @@ const Homepage = ({setuser})=>{
     }
     return(
         <div className='homepage'>Homepage
-        <button onClick={handlechange}>Logout</button>
+        <button className='homepage-button'onClick={handlechange}>Logout</button>
         </div>
         
     )

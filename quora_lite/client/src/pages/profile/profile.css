@@ -1,0 +1,171 @@
+.profile{
+    display: flex;
+
+}
+.profileRight{
+    flex: 9;
+    padding: 20px 15%;
+    color: #626262;
+
+}
+
+
+.profileCoverImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+.profileInfo{
+    display: flex;
+    padding: 20px;
+    border-radius: 4px;
+    align-items: flex-start;
+    background: #fff;
+    justify-content: space-between;
+}
+
+.pi-image{
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+
+
+.pi-row{
+    display: flex;
+    align-items: flex-start;
+}
+
+.pi-row div h3{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.pi-row div p{
+    font-size: 13px;
+}
+
+.pi-right button{
+    background-color: #1876f2;
+    border: 0;
+    outline: 0;
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+
+    
+}
+.b-img{
+    height: 15px;
+    margin-right: 10px;
+}
+.pi-right{
+    text-align: right;
+}
+
+.pi-right-img{
+    background: #e4e6eb;
+    border-radius: 3px;
+    padding: 5px 15px;
+    display: inline-flex;
+    margin-top: 20px;
+   
+    width: 20px;
+}
+.profile-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.info-col{
+    flex-basis: 33%;
+}
+.post-col{
+   flex-basis: 65%;
+}
+.profile-intro{
+    background:#fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.profile-intro h3{
+    font-weight: 600;
+
+}
+.intro-txt{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 15px;
+
+}
+.profile-intro hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 24px 0;
+
+}
+
+.profile-intro ul li{
+    list-style: none;
+    font-size: 15px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.intro-icon{
+    width: 26px;
+    margin-right: 10px;
+}
+
+.title-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-box p{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 14px;
+    cursor: pointer;
+}
+.photo-box{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    margin-top: 15px;
+}
+.photo-box div img{
+    width: 100px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.profile-intro p{
+    font-size: 14px;
+}
+.photo-box div{
+    position: relative;
+}
+.photo-box p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+
+
