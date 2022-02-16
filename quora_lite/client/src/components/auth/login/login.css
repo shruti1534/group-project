@@ -1,3 +1,4 @@
+
 .login{
     display: flex;
     align-items: center;
@@ -10,13 +11,17 @@
     background: white;
     position: relative;
     margin-top: 50px;
+    margin-left:25%;
    
 }
-input{
+
+.login-input{
     width: 91%;
     height: 30px;
+    outline: none;
+    margin-bottom: 20px;
 }
-button{
+.login-button{
     background: rgb(48, 160, 224);
     color: white;
     font-size: 15px;
@@ -25,5 +30,6 @@ button{
     width: 30%;
     height: 30px;
     border-radius: 5px;
+    margin-bottom: 10px;
   
 }

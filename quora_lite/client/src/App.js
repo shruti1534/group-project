@@ -1,21 +1,21 @@
 import React, {useState,useEffect} from 'react'
 
-import './App.css';
 
-import Register from './components/register/register'
-import Homepage from './components/homepage/homepage.js'
-import Login from './components/login/login'
+import Register from './components/auth/register/Register'
+import Homepage from './pages/homepage/homepage.js'
+import Login from './components/auth/login/login'
 
 import {BrowserRouter as Router,
   Routes,
 Route
 } from 'react-router-dom'
+import Profile from './pages/profile/Profile';
 
 function App() {
 
   const [user, setuser] = useState({});
   return(
-    <div className='App'>
+    <>
       
       <Router>
           <Routes>
@@ -27,8 +27,11 @@ function App() {
         </Routes>
       
         </Router>
+        {/* <Profile/> */}
+      
   
-    </div>
+    </>
+    
   )
 }
 

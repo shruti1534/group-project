@@ -41,15 +41,15 @@ let navigate = useNavigate();
 
     return(
         <div className='register'>
-            <h1>Register</h1>
-            <input type = 'text' name='name' value={user.name} onChange={(event)=>{setuser({name:event.target.value})}} placeholder='username' />
-            <input type='email'name='email' value={user.email} onChange={handlechange} placeholder='Email' />
-            <input type='password'name='password' value={user.password} onChange={handlechange} placeholder='Password' />
-            <input type='password'name='reenterpassword' value={user.reenterpassword} onChange={handlechange} placeholder = 're enter password' />
+            <h1 className='register-h1'>Register</h1>
+            <input className='register-input' type = 'text' name='name' value={user.name} onChange={(event)=>{setuser({name:event.target.value})}} placeholder='username' />
+            <input className='register-input' type='email'name='email' value={user.email} onChange={handlechange} placeholder='Email' />
+            <input className='register-input' type='password'name='password' value={user.password} onChange={handlechange} placeholder='Password' />
+            <input className='register-input' type='password'name='reenterpassword' value={user.reenterpassword} onChange={handlechange} placeholder = 're enter password' />
 
-            <button onClick={register}>Register</button>
+            <button className='register-button' onClick={register}>Register</button>
             <p>Or</p>
-            <button onClick={handleclick}>Login</button>
+            <button className='register-button' onClick={handleclick}>Login</button>
         </div>
     )
 }

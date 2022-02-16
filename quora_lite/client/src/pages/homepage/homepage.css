@@ -11,7 +11,7 @@
     background: white;
     position: relative;
 }
-button{
+.homepage-button{
     background: rgb(48, 160, 224);
     color: white;
     font-size: 15px;
