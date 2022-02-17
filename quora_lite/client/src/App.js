@@ -10,6 +10,7 @@ import {BrowserRouter as Router,
 Route
 } from 'react-router-dom'
 import Profile from './pages/profile/Profile';
+import Feed from './pages/feed/feed.js';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       
         </Router>
         {/* <Profile/> */}
+        {/* <Feed /> */}
       
   
     </>
