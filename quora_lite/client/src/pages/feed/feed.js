@@ -7,7 +7,6 @@ import "./feed.css";
 function Feed() {
     return (
         <div className="feed">
-            <QuoraBox />
             <Post/>
             {/* <Post />
       <Post />
