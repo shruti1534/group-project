@@ -1,0 +1,241 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    height: 43px;
+    background: linear-gradient(#2135ec 0%,#1876f2 100%);
+}
+
+/* .hamburger {
+    display: flex;
+    align-items: center;
+} */
+
+.logo {
+    width: 160px;
+    margin-right: 45px;
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo:hover {
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+} 
+
+.nav-left ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.icons {
+    width: 28px;
+    color: white;
+    font-size: 25px;
+    padding: 0.6rem 0.9rem;
+    margin: 0 2px;
+}
+
+.icons:hover {
+    background-color: rgba(185, 178, 178, 0.500);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.user-icon img{
+    width: 37px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.search-box {
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search-icon {
+    width: 18px; 
+}
+
+.search-box input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.mobile {
+    display: none;
+}
+
+.online {
+    position: relative;
+}
+
+.online:after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tooltip {
+    position: absolute;
+    background: #fff;
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #000;
+    display: none;
+}
+
+ul li a:hover .tooltip{
+    display: block;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+ul li .tooltip:before{
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 40%;
+    transform: translateX(-100%);
+    border-top: 8px solid transparent;
+    border-bottom: 10px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile p {
+    margin-bottom: -5px;
+    font-weight: 500;
+    color: #626262;
+    margin-top: -5px;
+}
+
+.profile-menu {
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 55px;
+    right: 5%;
+    max-height: 0;
+    transition: max-height 0.5s;
+}
+
+.profile-menu-height {
+    display: block;
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 55px;
+    right: 5%;
+    max-height: 200%;
+}
+
+.profile-menu-inner {
+    padding: 10px;
+}
+ 
+.user-profile a {
+    font-size: 13px;
+    color: #1876f2;
+    text-decoration: none;
+}
+
+.profile-options {
+    display: flex;
+    align-items: center;
+    margin: 11px 0;
+}
+
+.profile-options .profile-inside-icons {
+    width: 40px;
+    font-size: large;
+    opacity: 0.7;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.profile-options a {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #626262;
+}  
+
+.mobile-view {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+
+    .nav-menu, .search-box {
+        display: none;
+    }
+
+    .mobile {
+        display: inline;
+        background: #efefef;
+        margin: 5px 5%;
+        width: 80%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+        border: 1px solid #000;
+    }
+
+    .mobile-view {
+        display: contents  ;
+    }
+
+    .logo:hover {
+        opacity: unset;
+        transition: all 0.5s ease;
+        transform: scale(1);
+        cursor: pointer;
+    }
+}
